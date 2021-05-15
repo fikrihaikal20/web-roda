@@ -38,7 +38,7 @@
                             <i class="lnr lnr-cog"></i>
                         </div>
                         <div class="media-body">
-                            <h5>Robotic</h5>
+                            <h5>Robotics</h5>
                         </div>
                     </div>
                 </div>

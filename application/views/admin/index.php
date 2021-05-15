@@ -73,7 +73,7 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                <b>MANAGEMENT ROBOTIC</b>
+                <b>MANAGEMENT ROBOTICS</b>
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
@@ -81,7 +81,7 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-robot fa-cog"></i>
-                    <span>Robotic</span>
+                    <span>Robotics</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
@@ -263,7 +263,7 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Robotic
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Robotics
                                             </div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
