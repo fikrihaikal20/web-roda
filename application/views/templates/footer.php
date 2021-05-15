@@ -76,7 +76,7 @@
                     <br>
                     <div class="row">
                         <div class="col-md-6 text-center">
-                            <img src="" class="img-fluid img-responsive mx-auto " style="height: 350px;">
+                            <img src="<?= base_url('assets/img/clip-waiting.png')?>" class="img-fluid img-responsive mx-auto " style="height: 350px;">
                         </div>
                         <div class=" col-md-6">
                             <form action="" method="post">
