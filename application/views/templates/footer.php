@@ -52,8 +52,8 @@
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
             <div class="col-lg-4 col-md-4 footer-social">
-                <a href=""><i class="fa fa-github"></i></a>
-                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="far fa-envelope"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </div>
@@ -73,6 +73,7 @@
 <script src="<?= base_url('assets/vendors/counter-up/jquery.counterup.js')?>"></script>
 <script src="<?= base_url('assets/js/mail-script.js')?>"></script>
 <script src="<?= base_url('assets/js/theme.js')?>"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <script>
     var animateButton = function(e) {
         e.preventDefault;
