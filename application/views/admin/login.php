@@ -37,7 +37,7 @@
                         </h4>
                         <p class="text-muted">Sebelum masuk ke halaman admin, anda harus login terlebih dahulu sebagai
                             admin. silahkan isi data dibawah untuk melanjutkan.</p>
-                        <form method="post" action="" class="needs-validation"
+                        <form method="post" action="<?= ?>" class="needs-validation"
                             novalidate="">
                             <div class="form-group">
                                 <label for="email">Email</label>
