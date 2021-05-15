@@ -151,7 +151,7 @@
                     <div class="item">
                         <div class="testi_item">
                             <img src="assets/img/testimonials/profile.png" alt="">
-                            <h4>Susetyo</h4>
+                            <h4>Thoriq</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem, accusantium adipisci assumenda dolorum officia nemo, nam maxime dicta fuga, exercitationem ducimus facere magni aspernatur quos veritatis rem dolor et?
                             </p>
                         </div>
@@ -159,7 +159,7 @@
                     <div class="item">
                         <div class="testi_item">
                             <img src="assets/img/testimonials/profile.png" alt="">
-                            <h4>Susetyo</h4>
+                            <h4>Raditya</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis cupiditate asperiores iure hic, similique optio reprehenderit temporibus quo nobis corrupti sunt tempora libero dolores exercitationem eveniet dolorum, odit repudiandae animi!
                             </p>
                         </div>
@@ -167,7 +167,7 @@
                     <div class="item">
                         <div class="testi_item">
                             <img src="assets/img/testimonials/profile.png" alt="">
-                            <h4>Susetyo</h4>
+                            <h4>Adam</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odio laborum illo velit explicabo quidem delectus officia deserunt nisi optio dolores temporibus minus reprehenderit, dignissimos porro provident maxime deleniti! Quisquam.
                             </p>
                         </div>

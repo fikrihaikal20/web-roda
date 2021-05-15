@@ -61,6 +61,7 @@
                             <li class="nav-item" id="navkontak"><a class="nav-link" href="<?= base_url('Home/kontak')?>">Kontak</a>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="<?= base_url('Home/daftar')?>">Daftar</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">Masuk</a></li>
                         </ul>
                     </div>
                 </div>
