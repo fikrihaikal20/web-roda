@@ -5,28 +5,32 @@ class Home extends CI_Controller {
 	
 	public function index()
 	{
-		$this->load->view('templates/header');
+		$data['judul'] = 'RODA';
+		$this->load->view('templates/header', $data);
 		$this->load->view('home');
         $this->load->view('templates/footer');
 	}
 
 	public function tentang()
 	{
-        $this->load->view('templates/header');
+		$data['judul'] = 'Tentang RODA';
+        $this->load->view('templates/header', $data);
 		$this->load->view('tentang');
         $this->load->view('templates/footer');
 	}
 
 	public function kontak()
 	{
-		$this->load->view('templates/header');
+		$data['judul'] = 'Kontak RODA';
+		$this->load->view('templates/header', $data);
 		$this->load->view('kontak');
         $this->load->view('templates/footer');
 	}
-
+	
 	public function daftar()
 	{
-        $this->load->view('templates/header');
+		$data['judul'] = 'Daftar RODA';
+        $this->load->view('templates/header', $data);
 		$this->load->view('daftar');
         $this->load->view('templates/footer');
 	}
