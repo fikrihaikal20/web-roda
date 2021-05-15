@@ -11,7 +11,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/linericon/style.css')?>">
-    <link rel="stylesheet" href="<?= base_url('assets/css/fontawesome.min.css')?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/all.min.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/owl-carousel/owl.carousel.min.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/lightbox/simpleLightbox.css')?>">
     <link rel="stylesheet" href="<?= base_url('assets/vendors/nice-select/css/nice-select.css')?>">
