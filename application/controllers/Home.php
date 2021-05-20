@@ -26,12 +26,4 @@ class Home extends CI_Controller {
 		$this->load->view('kontak');
         $this->load->view('templates/footer');
 	}
-	
-	public function daftar()
-	{
-		$data['title'] = 'Daftar RODA';
-		$this->load->view('templates/header', $data);
-		$this->load->view('daftar');
-        $this->load->view('templates/footer');
-	}
 }
