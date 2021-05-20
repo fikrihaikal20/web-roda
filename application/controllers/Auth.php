@@ -46,7 +46,7 @@ class Auth extends CI_Controller {
             'email' => $email,
             'password' => $pass
         ];
-        $insert = $this->auth_model->daftar("pendaftar", $data);
+        $insert = $this->auth->daftar("pendaftar", $data);
         if($insert){
             echo '<script>alert("Sukses! Anda berhasil melakukan register. Silahkan login untuk mengakses data.");window.location.href="'.base_url().'";</script>';
         }
