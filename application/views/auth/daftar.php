@@ -40,7 +40,7 @@
                     <div class="form-group">
                         <label for="email" class="label-font-register">Email</label>
                         <input type="text" class="form-control" name="email" id="email" value="<?php echo set_value('email') ?>">
-                        <?php echo validation_errors('<span class="text-danger">', '</span>'); ?>
+                        <?php echo form_error('email','<span class="text-danger">', '</span>'); ?>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
