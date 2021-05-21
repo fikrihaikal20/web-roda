@@ -31,7 +31,7 @@
                 <div class="bodymovin" data-icon="<?= base_url('assets/json/registration-animation.json')?>"></div>
             </div>
             <div class="col-md-6 mx-auto my-auto mt--5">
-                <form action="" method="post">
+                <form action="<?= base_url('auth/proses_daftar')?>" method="post">
                     <div class="form-group">
                         <label for="nama" class="label-font-register">Full Name</label>
                         <input type="text" autocomplete="off" class="form-control effect-9" name="nama" id="nama" value="<?php echo set_value('nama') ?>">
