@@ -8,7 +8,7 @@
             <div class="banner_content text-center">
                 <h3 data-aos="fade-up" data-aos-duration="1600">Welcome To <br /> Robotika Smanisda</h3>
                 <p data-aos="fade-up" data-aos-duration="1900">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores repudiandae quam tenetur quidem repellendus molestias corporis voluptatem adipisci veritatis, excepturi veniam, ut corrupti voluptates unde nostrum amet accusamus magnam possimus. </p>
-                <a data-aos="fade-up" data-aos-duration="2000" class="main_btn" href="<?= base_url('auth/daftar') ?>">Bergabung Sekarang <span class="lnr lnr-arrow-right"></span></a>
+                <a data-aos="fade-up" data-aos-duration="2000" class="main_btn" href="<?= base_url('home/daftar') ?>">Bergabung Sekarang <span class="lnr lnr-arrow-right"></span></a>
             </div>
         </div>
     </div>

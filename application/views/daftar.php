@@ -9,7 +9,7 @@
                     <h2>Pendaftaran Robotika Smanisda</h2>
                     <div class="page_link">
                         <a href="<?= base_url() ?>">Beranda</a>
-                        <a href="<?= base_url('auth/daftar') ?>">Pendaftaran</a>
+                        <a href="<?= base_url('home/daftar') ?>">Pendaftaran</a>
                     </div>
                 </div>
             </div>
@@ -31,27 +31,27 @@
                 <div class="bodymovin" data-icon="<?= base_url('assets/json/registration-animation.json')?>"></div>
             </div>
             <div class="col-md-6 mx-auto my-auto mt--5">
-                <form action="" method="post">
+                <form action="<?= base_url('') ?>" method="post">
                     <div class="form-group">
-                        <label for="nama" class="label-font-register">Full Name</label>
-                        <input type="text" autocomplete="off" class="form-control effect-9" name="nama" id="nama" value="<?php echo set_value('nama') ?>">
-                        <?php echo form_error('nama', '<span class="text-danger">', '</span>'); ?>
+                        <label for="nama_lengkap" class="label-font-register">Nama lengkap</label>
+                        <input type="text" autocomplete="off" class="form-control effect-9" name="nama" id="nama_lengkap" ">
+                        
                     </div>
                     <div class="form-group">
                         <label for="email" class="label-font-register">Email</label>
-                        <input type="text" class="form-control" name="email" id="email" value="<?php echo set_value('email') ?>">
-                        <?php echo validation_errors('<span class="text-danger">', '</span>'); ?>
+                        <input type="text" class="form-control" name="email" id="email" ">
+                        
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="password" class="label-font-register">Password</label>
                             <input type="password" class="form-control" name="password" id="password">
-                            <?php echo form_error('password', '<span class="text-danger">', '</span>'); ?>
+                            
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="retype_password" class="label-font-register">Retype Password</label>
+                            <label for="retype_password" class="label-font-register">Retype password</label>
                             <input type="password" class="form-control" name="retype_password" id="retype_password">
-                            <?php echo form_error('retype_password', '<span class="text-danger">', '</span>'); ?>
+                           
                         </div>
                     </div>
                     <div class="form-check">
