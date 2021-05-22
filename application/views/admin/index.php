@@ -229,7 +229,9 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                 Anggota</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800"> </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                                <?php echo $count_anggota?>
+                                            </div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-user fa-2x text-gray-300"></i>
@@ -247,7 +249,9 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                 Web Developer</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800"> </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                            <?php echo $count_webdev?>
+                                            </div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-code fa-2x text-gray-300"></i>
@@ -267,7 +271,9 @@
                                             </div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
-                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800"> </div>
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">
+                                                    <?php echo $count_robotics?>
+                                                    </div>
                                                 </div>        
                                             </div>
                                         </div>
@@ -287,7 +293,9 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
                                                 Programmer</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800"> </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+                                            <?php echo $count_programmer?>
+                                            </div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-laptop fa-2x text-gray-300"></i>
@@ -296,6 +304,38 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="row">
+                    <a href="<?php echo base_url('admin/tambah/') ?>" class="btn btn-primary my-3 mx-5">Tambah Anggota</a>
+                        <table class="table table-bordered mx-5">
+                            <thead class="text-center">
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Nama</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Devisi</th>
+                                <th scope="col">Aksi</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php $i = 1; ?>
+                            <?php foreach ($users as $user) : ?>
+                                <tr>
+                                <th scope="row" class="text-center"><?php echo $i++; ?></th>
+                                <td><?php echo $user['nama'] ?></td>
+                                <td><?php echo $user['email'] ?></td>
+                                <td><?php echo $user['devisi']?></td>
+                                <td class="text-center">
+                                    <a href="<?php echo base_url('admin/detail/') . $user['id']; ?>"><span class="badge badge-info">Detail</span></a>
+                                    <a href="<?php echo base_url('admin/edit/') . $user['id']; ?>"><span class="badge badge-warning">Edit</span></a>
+                                    <a href="<?php echo base_url('admin/delete/') . $user['id']; ?>"><span class="badge badge-danger">Delete</span></a>
+                                    
+                                </td>
+                                </tr>
+                            <?php endforeach; ?>
+                            </tbody>
+                        </table>
                     </div>
 
                     
