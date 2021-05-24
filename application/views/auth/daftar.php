@@ -31,7 +31,7 @@
                 <div class="bodymovin" data-icon="<?= base_url('assets/json/registration-animation.json')?>"></div>
             </div>
             <div class="col-md-6 mx-auto my-auto mt--5">
-                <form action="<?= base_url('auth/proses_daftar')?>" method="post">
+                <form action="" method="post">
                     <div class="form-group">
                         <label for="nama" class="label-font-register">Full Name</label>
                         <input type="text" autocomplete="off" class="form-control effect-9" name="nama" id="nama" value="<?php echo set_value('nama') ?>">
@@ -40,7 +40,7 @@
                     <div class="form-group">
                         <label for="email" class="label-font-register">Email</label>
                         <input type="text" class="form-control" name="email" id="email" value="<?php echo set_value('email') ?>">
-                        <?php echo validation_errors('<span class="text-danger">', '</span>'); ?>
+                        <?php echo form_error('email','<span class="text-danger">', '</span>'); ?>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
