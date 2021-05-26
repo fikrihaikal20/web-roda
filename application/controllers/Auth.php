@@ -38,12 +38,12 @@ class Auth extends CI_Controller {
             ];
             $insert = $this->auth_model->daftar("pendaftar", $data);
             if($insert){
-                echo '<script>alert("Sukses! Anda berhasil melakukan register. Silahkan login untuk mengakses data.");window.location.href="'.base_url().'";</script>';
+                $_SESSION['status'] = "Registered Succesfully";
+                header('Location: ' . base_url());
+            }
+        $this->load->view('templates/footer');
         }
-      }
-      $this->load->view('templates/footer');
     }
-
     public function logout()
     {
         # code...

@@ -1,4 +1,11 @@
-    
+<?php if(isset($_SESSION['status'])) {
+    ?>
+    <div class="alert alert-success" role="alert">
+        Registered Succesfully
+    </div>
+    <?php
+    unset($_SESSION['status']);
+}?> 
     <!--================Home Banner Area =================-->
 <section class="home_banner_area">
     <div class="banner_inner d-flex align-items-center">
