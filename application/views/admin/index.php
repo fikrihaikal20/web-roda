@@ -298,6 +298,8 @@
                         </div>
                     </div>
 
+
+                    <!-- table anggota-->
                     <div class="row">
                     <a href="<?php echo base_url('admin/tambah/') ?>" class="btn btn-primary my-3 mx-5">Tambah Anggota</a>
                         <table class="table table-bordered mx-5">

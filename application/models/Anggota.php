@@ -32,6 +32,25 @@ class Anggota extends CI_Model
     return redirect('admin/index');
   }
 
+  public function data_webdev()
+  {
+    return $this->db->get('webdev')->result_array();
+  }
+
+  public function data_robotics()
+  {
+    return $this->db->get('robotics')->result_array();
+  }
+
+  public function data_programmers()
+  {
+    return $this->db->get('programmers')->result_array();
+  }
+
+
+  
+
+
 
   
 }

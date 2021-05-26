@@ -92,5 +92,32 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/login');
 	}
 
+	public function data_webdev(){
+		$data = [
+			'users' => $this->anggota->data_webdev(),
+		];
+
+		$this->load->view('admin/tmplts/header_admin');
+		$this->load->view('admin/data_webdev', $data);
+		$this->load->view('admin/tmplts/footer_admin');
+	}
+
+	public function data_robotics(){	
+		$data = [
+			'users' => $this->anggota->data_programmers(),
+		];
+		$this->load->view('admin/tmplts/header_admin');
+		$this->load->view('admin/data_robotics', $data);
+		$this->load->view('admin/tmplts/footer_admin');
+	}
+
+	public function data_programmers(){
+		$data = [
+			'users' => $this->anggota->data_programmers(),
+		];
+		$this->load->view('admin/tmplts/header_admin');
+		$this->load->view('admin/data_programmers', $data);
+		$this->load->view('admin/tmplts/footer_admin');
+	}
 	
 }
