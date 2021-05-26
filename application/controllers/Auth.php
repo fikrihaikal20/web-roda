@@ -6,16 +6,35 @@ class Auth extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('auth_model');
+        $this->load->model('auth_model', 'auth');
     }
 
     public function login()
     {
-        # code...
+        if ($this->session->userdata('email')) {
+            redirect('user');
+        }
+
+        $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
+        $this->form_validation->set_rules('password', 'Password', 'required|trim|min_length[4]');
+
+        if ($this->form_validation->run() == FALSE) {
+            redirect();
+        } else {
+        $data = [
+            'email'     => $this->input->post('email'),
+            'password'  => $this->input->post('password')
+        ];
+        $this->auth->login($data);
+        }
     }
     
     public function daftar()
     {
+        if ($this->session->userdata('email')) {
+            redirect('user');
+        }
+
         $data['title'] = 'Daftar RODA';
         $this->load->view('templates/header', $data);
 
@@ -36,16 +55,19 @@ class Auth extends CI_Controller {
                 'email' => $email,
                 'password' => $pass
             ];
-            $insert = $this->auth_model->daftar("pendaftar", $data);
+            $insert = $this->auth->daftar("pendaftar", $data);
             if($insert){
                 $_SESSION['status'] = "Registered Succesfully";
                 header('Location: ' . base_url());
             }
-        $this->load->view('templates/footer');
         }
+        $this->load->view('templates/footer');
     }
+
     public function logout()
     {
-        # code...
+        $this->session->unset_userdata('email');
+        $this->session->unset_userdata('nama');
+        redirect();
     }
 } 

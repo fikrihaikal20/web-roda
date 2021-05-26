@@ -21,7 +21,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href=" " type="image/png">
     <!-- Title -->
-    <title>Selamat datang - bambang </title>
+    <title>Selamat datang - <?= $this->session->userdata('nama'); ?>! </title>
     <!-- Bootstrap CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url('assets/') ?>css/bootstrap.css">
@@ -62,11 +62,11 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item "><a class="nav-link" href="javascript:void(0)">Hai, bambang</a>
+                            <li class="nav-item "><a class="nav-link" href="javascript:void(0)">Hai, <?= $this->session->userdata('nama'); ?>!</a>
                             </li>
                             <li class="nav-item active"><a class="nav-link" href="<?= base_url('user') ?>">Beranda</a>
                             </li>
-                            <li class=" nav-item "><a class=" nav-link text-danger" href="">Log Out</a>
+                            <li class=" nav-item "><a class=" nav-link text-danger" href="<?= base_url('auth/logout') ?>">Log Out</a>
                             </li>
                         </ul>
                     </div>
@@ -87,7 +87,7 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
                         </span> </h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <hr>
-                    <h4 style="line-height: 4px;" data-aos="fade-down" data-aos-duration="1700">bambang - web developer</h3>                        
+                    <h4 style="line-height: 4px;" data-aos="fade-down" data-aos-duration="1700"><?= $this->session->userdata('nama'); ?> - web developer</h3>                        
                 </div>
             </div>
         </div>
