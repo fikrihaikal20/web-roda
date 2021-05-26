@@ -32,36 +32,6 @@ class Anggota extends CI_Model
     return redirect('admin/index');
   }
 
-  public function get_count()
-  {
-	$sql = "SELECT count(devisi) as devisi FROM anggota";
-	$result = $this->db->query($sql);
-	return $result->row()->devisi;
-  }
-
-  public function count_webdev()
-  {
-    $this->db->select('*');
-    $this->db->from('anggota');
-    $this->db->like('devisi', 'webdev');
-    return $num_rows = $this->db->count_all_results();
-  }
-
-  public function count_robotics()
-  {
-    $this->db->select('*');
-    $this->db->from('anggota');
-    $this->db->like('devisi', 'robotics');
-    return $num_rows = $this->db->count_all_results();
-  }
-
-  public function count_programmer()
-  {
-    $this->db->select('*');
-    $this->db->from('anggota');
-    $this->db->like('devisi', 'programmer');
-    return $num_rows = $this->db->count_all_results();
-  }
 
   
 }

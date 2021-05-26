@@ -7,7 +7,6 @@
       <p class="card-text">Email : <?php echo $user['email']?> </p>
       <p class="card-text">Devisi : <?php echo $user['devisi']?> </p>
       <p class="card-text">Kelas : <?php echo $user['kelas']?> </p>
-      <p class="card-text">Password : <?php echo $user['password']?> </p>
 
       <a href="<?php echo base_url('admin/index') ?>" class="card-link">Kembali ke Halaman Admin</a>
     </div>

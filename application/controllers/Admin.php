@@ -13,10 +13,6 @@ class Admin extends CI_Controller {
 	{
 		$data = [
 			'users' => $this->anggota->all_data(),
-			'count_anggota' => $this->anggota->get_count(),
-			'count_webdev' => $this->anggota->count_webdev(),
-			'count_robotics' => $this->anggota->count_robotics(),
-			'count_programmer' => $this->anggota->count_programmer()
 		];
 
 		$this->load->view('admin/index', $data);

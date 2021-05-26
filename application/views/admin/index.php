@@ -230,7 +230,7 @@
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                 Anggota</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                                <?php echo $count_anggota?>
+                                                <?php echo $this->db->count_all('anggota');?>
                                             </div>
                                         </div>
                                         <div class="col-auto">
@@ -250,7 +250,7 @@
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                 Web Developer</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                            <?php echo $count_webdev?>
+                                            <?php echo $this->db->count_all('webdev');?>
                                             </div>
                                         </div>
                                         <div class="col-auto">
@@ -272,7 +272,7 @@
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
                                                     <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">
-                                                    <?php echo $count_robotics?>
+                                                    <?php echo $this->db->count_all('robotics');?>
                                                     </div>
                                                 </div>        
                                             </div>
@@ -294,7 +294,7 @@
                                             <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
                                                 Programmer</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">
-                                            <?php echo $count_programmer?>
+                                            <?php echo $this->db->count_all('programmers');?>
                                             </div>
                                         </div>
                                         <div class="col-auto">
@@ -314,7 +314,7 @@
                                 <th scope="col">No</th>
                                 <th scope="col">Nama</th>
                                 <th scope="col">Email</th>
-                                <th scope="col">Devisi</th>
+                                <th scope="col">Kelas</th>
                                 <th scope="col">Aksi</th>
                             </tr>
                             </thead>
@@ -325,7 +325,7 @@
                                 <th scope="row" class="text-center"><?php echo $i++; ?></th>
                                 <td><?php echo $user['nama'] ?></td>
                                 <td><?php echo $user['email'] ?></td>
-                                <td><?php echo $user['devisi']?></td>
+                                <td><?php echo $user['kelas']?></td>
                                 <td class="text-center">
                                     <a href="<?php echo base_url('admin/detail/') . $user['id']; ?>"><span class="badge badge-info">Detail</span></a>
                                     <a href="<?php echo base_url('admin/edit/') . $user['id']; ?>"><span class="badge badge-warning">Edit</span></a>
