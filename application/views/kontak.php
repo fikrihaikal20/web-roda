@@ -23,7 +23,7 @@
         <div style="width: 100%"><iframe width="100%" height="600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.506946381268!2d112.72016349443778!3d-7.43509575913099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e7632e9330a1%3A0xd15eed44f3396ac6!2sSMAN%201%20Sidoarjo!5e0!3m2!1sid!2sid!4v1613801963295!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <div class="row">
             <div class="col-lg-9">
-                <div class="contact_info">
+                <div class="contact_info my-4">
                     <div class="info_item">
                         <i class="lnr lnr-home"></i>
                         <h6>SMAN 1 Sidoarjo, Bedrek, Siwalanpanji, Kabupaten Sidoarjo, Jawa Timur</h6>

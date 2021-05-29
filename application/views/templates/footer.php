@@ -79,20 +79,20 @@
                             <img src="<?= base_url('assets/img/clip-waiting.png')?>" class="img-fluid img-responsive mx-auto " style="height: 350px;">
                         </div>
                         <div class=" col-md-6">
-                            <form action="" method="post">
+                            <form action="<?= base_url('auth/login') ?>" method="post">
                                 <div class="form-group">
                                     <label class="label-font" for="
                                         exampleFormControlInput1">
                                         Email</label>
                                     <input type="text" value="" class="form-control" name="email" autocomplete="off" id="email" placeholder="Masukan email mu disini ..">
-                                    <small class="text-danger"></small>
+                                    <?php echo form_error('email', '<span class="text-danger">', '</span>'); ?>
                                 </div>
                                 <div class="form-group">
                                     <label class="label-font" for="
                                         exampleFormControlInput1">
                                         Password</label>
                                     <input type="password" name="password" class="form-control" id="password" placeholder="Masukan password mu disini ..">
-                                    <small class="text-danger"></small>
+                                    <?php echo form_error('password', '<span class="text-danger">', '</span>'); ?>
                                 </div>
                                 <div class="form-check mt-2">
                                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -104,7 +104,7 @@
                                     menyetujui
                                     <i>privasi dan persyaratan ketentuan
                                         hukum kami </i> .
-                                    belum punya akun? daftar <a href="">
+                                    belum punya akun? daftar <a href="<?= base_url('auth/daftar') ?>">
                                         disini.</a>
                                 </p>
                                 <button class="btn btn-block font-weight-bold" style="background-color: #2AA2F6;color:white;font-size:18px;">Login

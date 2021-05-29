@@ -34,23 +34,23 @@
                 <form action="" method="post">
                     <div class="form-group">
                         <label for="nama" class="label-font-register">Full Name</label>
-                        <input type="text" autocomplete="off" class="form-control effect-9" name="nama" id="nama" value="<?php echo set_value('nama') ?>">
+                        <input type="text" autocomplete="off" class="form-control effect-9" name="nama" id="nama" placeholder="Masukkan nama lengkap..." value="<?php echo set_value('nama') ?>">
                         <?php echo form_error('nama', '<span class="text-danger">', '</span>'); ?>
                     </div>
                     <div class="form-group">
                         <label for="email" class="label-font-register">Email</label>
-                        <input type="text" class="form-control" name="email" id="email" value="<?php echo set_value('email') ?>">
+                        <input type="text" class="form-control" name="email" id="email" placeholder="Masukkan email..." value="<?php echo set_value('email') ?>">
                         <?php echo form_error('email','<span class="text-danger">', '</span>'); ?>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="password" class="label-font-register">Password</label>
-                            <input type="password" class="form-control" name="password" id="password">
+                            <input type="password" class="form-control" name="password" id="password" placeholder="Masukkan password...">
                             <?php echo form_error('password', '<span class="text-danger">', '</span>'); ?>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="retype_password" class="label-font-register">Retype Password</label>
-                            <input type="password" class="form-control" name="retype_password" id="retype_password">
+                            <input type="password" class="form-control" name="retype_password" id="retype_password" placeholder="Ulangi password...">
                             <?php echo form_error('retype_password', '<span class="text-danger">', '</span>'); ?>
                         </div>
                     </div>
