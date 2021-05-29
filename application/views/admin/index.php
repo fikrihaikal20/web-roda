@@ -301,7 +301,8 @@
 
                     <!-- table anggota-->
                     <div class="row">
-                    <a href="<?php echo base_url('admin/tambah/') ?>" class="btn btn-primary my-3 mx-5">Tambah Anggota</a>
+                    <a href="<?php echo base_url('admin/add_anggota/') ?>" class="btn btn-primary my-3 mx-5">Tambah Anggota</a>
+                    <a href="<?php echo base_url('admin/add_tugas/') ?>" class="btn btn-primary my-3 mx-5">Tambah tugas</a>
                         <table class="table table-bordered mx-5">
                             <thead class="text-center">
                             <tr>
@@ -331,23 +332,11 @@
                             </tbody>
                         </table>
                     </div>
-
-                    
-                </div>
-                
+                                              
+                </div>                
 
             </div>
-            <!-- End of Main Content -->
-
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
+            <!-- End of Main Content -->       
 
         </div>
         <!-- End of Content Wrapper -->

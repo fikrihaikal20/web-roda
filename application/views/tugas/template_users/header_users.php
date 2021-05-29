@@ -1,17 +1,4 @@
-<!--
-@Project: Learnify
-@Programmer: Syauqi Zaidan Khairan Khalaf
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
-
-@About-Learnify :
-Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
-
-<!doctype html>
+!doctype html>
 <html lang="en">
 
 <head>
@@ -93,50 +80,3 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
         </div>
     </div>
     <!-- End Greetings Card -->
-
-
-    <br>
-
-
-    <!-- Start Class Card -->
-    <div class="container">
-        <div class="row mt-4 mb-5 justify-content-center">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900" data-aos="fade-right">
-                        <a href="<?= base_url('tugas/webdev') ?>">
-                            <div class="card-kelas text-center">
-                                <img src="<?= base_url('assets/img/webdev.png') ?>" style="object-fit: cover;" class="card-img-top img-fluid" alt="...">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900" data-aos="fade-down">
-                        <a href="<?= base_url('tugas/robotics') ?>">
-                            <div class="card-kelas">
-                                <img src="<?= base_url('assets/img/robotics.png') ?>" class="card-img-top" alt="...">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-left">
-                        <a href="<?= base_url('tugas/programmers') ?>">
-                            <div class="card-kelas">
-                                <img src="<?= base_url('assets/img/programmer.png') ?>" class="card-img-top" alt="...">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Class Card -->
-
-
-    <br>
-
-
-    <!-- Start Animate On Scroll -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!-- End Animate On Scroll -->

@@ -1,17 +1,4 @@
-<!--
-@Project: Learnify
-@Programmer: Syauqi Zaidan Khairan Khalaf
-@Website: https://linktr.ee/syauqi
-@Email : syaokay@gmail.com
-
-@About-Learnify :
-Web Edukasi Open Source yang dibuat oleh Syauqi Zaidan Khairan Khalaf.
-Learnify adalah Web edukasi yang dilengkapi video, materi dan sistem ujian
-yang tersedia secara gratis. Learnify dibuat ditujukan agar para siswa dan
-guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
--->
-
-<!doctype html>
+!doctype html>
 <html lang="en">
 
 <head>
@@ -76,67 +63,30 @@ guru dapat terus belajar dan mengajar dimana saja dan kapan saja.
     </header>
     <!-- End Navigation Bar -->
 
-
-    <!-- Start Greetings Card -->
+    <!-- Start Deskripsi Materi -->
     <div class="container">
-        <div class="bg-white mx-auto p-4 buat-text" data-aos="fade-down" data-aos-duration="1400" style="width: 100%; border-radius:10px;">
-            <div class="row" style="color: black; font-family: 'poppins';">
-                <div class="col-md-12 mt-1">
-                    <h1 class="display-4" style="color: black; font-family:'poppins';" data-aos="fade-down" data-aos-duration="1400">Selamat Datang
-                        di Roda <span style="font-size: 40px;">👋🏻
-                        </span> </h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <hr>
-                    <h4 style="line-height: 4px;" data-aos="fade-down" data-aos-duration="1700">bambang - web developer</h3>                        
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Greetings Card -->
-
-
-    <br>
-
-
-    <!-- Start Class Card -->
-    <div class="container">
-        <div class="row mt-4 mb-5 justify-content-center">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900" data-aos="fade-right">
-                        <a href="<?= base_url('tugas/webdev') ?>">
-                            <div class="card-kelas text-center">
-                                <img src="<?= base_url('assets/img/webdev.png') ?>" style="object-fit: cover;" class="card-img-top img-fluid" alt="...">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-4 mb-2 d-flex justify-content-center " data-aos-duration="1900" data-aos="fade-down">
-                        <a href="<?= base_url('tugas/robotics') ?>">
-                            <div class="card-kelas">
-                                <img src="<?= base_url('assets/img/robotics.png') ?>" class="card-img-top" alt="...">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-4 mb-2 d-flex justify-content-center" data-aos-duration="1900" data-aos="fade-left">
-                        <a href="<?= base_url('tugas/programmers') ?>">
-                            <div class="card-kelas">
-                                <img src="<?= base_url('assets/img/programmer.png') ?>" class="card-img-top" alt="...">
-                            </div>
-                        </a>
+        <div class="row mt-4">
+            <div class="col-md-12 w-150 mb-4">
+                <div class="card materi border-0">
+                    <div class="card-body p-5">
+                        <h1 class="card-title display-4"><?= $detail->judul; ?></h1>
+                        <hr style="background-color: white;">
+                        <h5 class="card-text"><?= $detail->divisi; ?></h5>
+                        <p class="card-text"> Deskripsi tugas : <br> <?= $detail->deskripsi; ?></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Class Card -->
+    
+    <!-- End Deskripsi Materi -->
 
-
-    <br>
-
-
-    <!-- Start Animate On Scroll -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!-- End Animate On Scroll -->
+<div class="form-group">
+    <div class="input-group">
+        <div class="custom-file">
+            <input required type="file" name="file" required class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+            <label class="custom-file-label" for="inputGroupFile01">Upload file</label>
+        </div>                                                    
+    </div>
+    <?=$this->session->flashdata('error');?>
+</div>

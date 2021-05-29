@@ -1,12 +1,3 @@
-  <!-- Footer -->
-  <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
 
         </div>
         <!-- End of Content Wrapper -->
@@ -43,6 +34,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
     <script src="<?= base_url('assets/js/sb-admin-2.js')?>"></script>
+
+    <?php if ($this->session->flashdata('success-reg')) : ?>
+        <script>
+            Swal.fire({
+                icon: 'success',
+                title: 'Data Materi Telah Ditambah!',
+                text: 'Selamat data telah Ditambah!',
+                showConfirmButton: false,
+                timer: 2500
+            })
+        </script>
+    <?php endif; ?>
 
 </body>
 

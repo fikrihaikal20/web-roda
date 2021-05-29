@@ -228,6 +228,7 @@ th {
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
+  color: black;
 }
 
 button {
@@ -6492,7 +6493,6 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #27A0F2 !important;
 }
 
 .bg-transparent {
@@ -10016,7 +10016,7 @@ a:focus {
 }
 
 .text-gray-600 {
-  color: white !important;
+  color: black !important;
 }
 
 .text-gray-700 {
