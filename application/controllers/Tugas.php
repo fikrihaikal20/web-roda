@@ -8,6 +8,7 @@ class Tugas extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+        is_logged_in();
         $this->load->library('form_validation');
         $this->load->model('m_tugas');
         $this->list_tugas['robotics'] = $this->m_tugas->robotics()->result();

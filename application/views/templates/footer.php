@@ -18,7 +18,7 @@
                     <h6 class="footer_title">Masuk - Sign in</h6>
                     <ul class="list">
                         <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter">Untuk Anggota</a></li>                        
-                        <li><a href="<?= base_url('admin/login')?>">Untuk Admin</a></li> 
+                        <li><a href="<?= base_url('auth/login_admin')?>">Untuk Admin</a></li> 
                     </ul>
                 </div>
             </div>

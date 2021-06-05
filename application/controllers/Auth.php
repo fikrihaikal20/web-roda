@@ -10,11 +10,7 @@ class Auth extends CI_Controller {
     }
 
     public function login()
-    {
-        if ($this->session->userdata('email')) {
-            redirect('user');
-        }
-
+    {        
         $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
         $this->form_validation->set_rules('password', 'Password', 'required|trim|min_length[4]');
 
@@ -24,16 +20,31 @@ class Auth extends CI_Controller {
         $data = [
             'email'     => $this->input->post('email'),
             'password'  => $this->input->post('password')
+
         ];
         $this->auth->login($data);
         }
     }
+
+    public function login_admin()
+    {        
+        $this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
+        $this->form_validation->set_rules('password', 'Password', 'required|trim|min_length[4]');
+
+        if ($this->form_validation->run() == FALSE) {
+            $this->load->view('admin/login');
+        } else {
+        $data = [
+            'email'     => $this->input->post('email'),
+            'password'  => $this->input->post('password')
+
+        ];
+        $this->auth->login_admin($data);
+        }        
+    }
     
     public function daftar()
-    {
-        if ($this->session->userdata('email')) {
-            redirect('user');
-        }
+    {        
 
         $data['title'] = 'Daftar RODA';
         $this->load->view('templates/header', $data);
@@ -69,5 +80,10 @@ class Auth extends CI_Controller {
         $this->session->unset_userdata('email');
         $this->session->unset_userdata('nama');
         redirect();
+    }
+
+    public function blocked()
+    {
+        echo 'akses terlarang';
     }
 } 
