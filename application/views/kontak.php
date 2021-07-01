@@ -24,21 +24,18 @@
         <div class="row">
             <div class="col-lg-9">
                 <div class="contact_info my-4">
-                    <div class="info_item">
+                    <div class="info_item mb-3">
                         <i class="lnr lnr-home"></i>
-                        <h6>SMAN 1 Sidoarjo, Bedrek, Siwalanpanji, Kabupaten Sidoarjo, Jawa Timur</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h6>SMAN 1 Sidoarjo, Bedrek, Siwalanpanji, Kabupaten Sidoarjo, Jawa Timur</h6>                        
                     </div>
-                    <div class="info_item">
+                    <div class="info_item mb-3">
                         <i class="lnr lnr-phone-handset"></i>
                         <h6><a href="#">
-                                019309</a></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                081244283690</a></h6>
                     </div>
-                    <div class="info_item">
+                    <div class="info_item mb-3">
                         <i class="lnr lnr-envelope"></i>
-                        <h6><a href="#">roda.smanis@gmail.com</a></h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h6><a href="#">roda.smanis@gmail.com</a></h6>                        
                     </div>
                 </div>
             </div>

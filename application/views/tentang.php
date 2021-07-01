@@ -23,7 +23,7 @@
     <div class="container">
         <div class="main_title">
             <h2 data-aos="fade-up" data-aos-duration="1600" style="font-size: 33px !important;">Tentang Robotika Smanisda</h2>
-            <p data-aos="fade-up" data-aos-duration="1800">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam laudantium veniam nobis sit, debitis consectetur esse cumque sint aliquam accusantium magnam eos. Excepturi nulla sequi vel, illum repellendus eum tenetur.
+            <p data-aos="fade-up" data-aos-duration="1800">Robotika Smanisda atau yang biasa dikenal sebagai RODA adalah salah satu ekstrakurikuler di SMA Negeri 1 Sidoarjo yang bergerak dibidang teknologi dan informatika.Selain bidang robotika, RODA juga berupaya menekuni bidang pemrograman sehingga para anggota dapat mengembangkan program seperti startup, website, dan aplikasi sederhana yang dapat berguna bagi lingkungan masyarakat.
             </p>
         </div>
         <div class="row about_inner">
@@ -39,7 +39,7 @@
                         </div>
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis hic unde iste consequuntur similique, dignissimos iusto quam amet quis repellat doloribus id odio perspiciatis alias nobis. Maxime excepturi praesentium quidem.
+                            Menjadikan Roda kreatif, inovatif serta sebagai wadah berkembangnya kreativitas dalam bidang robotika dan programming yang dapat menghasilkan prestasi serta inovasi bagi smanisda
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias magni eveniet. Temporibus nihil maxime fugiat unde, atque molestias deleniti tenetur, nisi labore minima voluptas asperiores optio. Magnam, ab consequatur.
+                            Mewadahi siswa yang berminat dalam bidang robotika/programming, Aktif mengikuti perkembangan teknologi dan perlombaan di bidang robotika/programming, Menghasilkan inovasi untuk pengembangan pada bidang robotika/programming di smanisda
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <div class="card-body">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora doloribus quae, unde labore asperiores eum optio quis placeat sapiente maxime, numquam perferendis ipsa laudantium illo sint recusandae voluptate accusantium reiciendis?
+                            Memfasilitasi anggota Robotika Smanisda dalam pembelajaran pemrogramman Mengembangkan pengetahuan, kreativitas, serta ketrampilan peserta didik melalui pembuatan aplikasi serta website.
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                         </div>
                         <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
                             <div class="card-body">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta laborum cumque expedita aut blanditiis praesentium iusto minus, asperiores unde sunt maiores molestiae similique velit aperiam quasi. Fuga suscipit ipsum commodi?
+                            Memberikan peluang untuk meraih prestasi,Menambah wawasan anggota Robotika Smanisda, Terfasilitasinya anggota Robotika Smanisda dalam pembelajaran, Meningkatkan pembelajaran rutin dan program kerja Robotika Smanisda
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
     <div class="container">
         <div class="main_title">
             <h2 data-aos="fade-up" data-aos-duration="1800">Program Kerja</h2>
-            <p data-aos="fade-up" data-aos-duration="2000">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non odit sequi reiciendis molestiae ea repellendus officia quibusdam? Voluptas sapiente, omnis recusandae natus qui id modi eligendi cumque. Porro, cum nulla?</p>
+            <p data-aos="fade-up" data-aos-duration="2000">Program kerja RODA 2021 yaitu pemprograman,perakitan robot, dan pengadaan perlengkapan Arduino. tujuan pemprograman yaitu Agar anggota kami dapat belajar mengenai pemrograman dan mempraktekkannya dengan cara membuat sebuah aplikasi sederhana ataupun dengan cara membuat sebuah website, Tujuan pengadaan perlengkapan arduino yaitu Agar anggota kami dapat belajar mengenai Arduino dan dapat mengaplikasikan kedepannya kepada robot-robot yang akan dibuat, tujuan perakitan robot yaitu Agar anggota kami dapat belajar mengenai bagaimana cara merakit atau membuat sebuah robot serta fungsi dari masing masing komponen komponennya</p>
         </div>
     </div>
 </section>

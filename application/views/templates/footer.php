@@ -36,7 +36,7 @@
                 <div class="single-footer-widget tp_widgets">
                     <h6 class="footer_title">Tentang Developer</h6>
                     <ul class="list">
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quaerat, alias eius, voluptate a voluptatibus doloribus eaque error adipisci libero ratione hic earum consectetur tempore exercitationem illum cumque quo officiis.</li>
+                        <li>Web developer adalah divisi yang bergerak di pengembangan web.Tugas dari web developer adalah membuat Web untuk kegiatan oraganisasi/ekskul lain disekolah serta mengembangkan Web Roda.</li>
                     </ul>
                 </div>
             </div>
@@ -52,7 +52,7 @@
             </p>
             <div class="col-lg-4 col-md-4 footer-social">
                 <a href=""><i class="far fa-envelope"></i></a>
-                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/roda_ofc/?hl=id"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </div>

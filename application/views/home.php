@@ -14,7 +14,7 @@
         <div class="container">
             <div class="banner_content text-center">
                 <h3 data-aos="fade-up" data-aos-duration="1600">Welcome To <br /> Robotika Smanisda</h3>
-                <p data-aos="fade-up" data-aos-duration="1900">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores repudiandae quam tenetur quidem repellendus molestias corporis voluptatem adipisci veritatis, excepturi veniam, ut corrupti voluptates unde nostrum amet accusamus magnam possimus. </p>
+                <p data-aos="fade-up" data-aos-duration="1900">Bergabunglah dengan kami untuk membuat sebuah inovasi di dunia modern.Disini kita akan mempelajari 3 keahlian yaitu Robotics,Programming,dan Web developer.Ketiga skill tersebut sangat dibutuhkan di era digital saat ini, maka dari itu jangan sampai melewatkan kesempatan yang ada. </p>
                 <a data-aos="fade-up" data-aos-duration="2000" class="main_btn" href="<?= base_url('auth/daftar') ?>">Bergabung Sekarang <span class="lnr lnr-arrow-right"></span></a>
             </div>
         </div>
@@ -79,7 +79,7 @@
             <div class="col-md-7 mx-auto">
                 <div class="main_title">
                     <h2 data-aos="fade-up" data-aos-duration="2000">Robotika Smanisda</h2>
-                    <p data-aos="fade-up" data-aos-duration="2200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, provident asperiores? Pariatur quo, iusto atque id deserunt dolore ratione aliquam, praesentium ullam sed dolorem. Officia et mollitia architecto alias provident!</p>
+                    <p data-aos="fade-up" data-aos-duration="2200">Robotika Smanisda atau yang biasa dikenal sebagai RODA adalah salah satu ekstrakurikuler di SMA Negeri 1 Sidoarjo yang bergerak dibidang teknologi dan informatika.Selain bidang robotika, RODA juga berupaya menekuni bidang pemrograman sehingga para anggota dapat mengembangkan program seperti startup, website, dan aplikasi sederhana yang dapat berguna bagi lingkungan masyarakat.</p>
                     <a href="<?= base_url('Home/tentang') ?>"><button data-aos="fade-up" data-aos-duration="2400" class="bubbly-button">Lihat selengkapnya <span class="lnr lnr-arrow-right"></span></button></a>
                 </div>
             </div>
@@ -89,18 +89,17 @@
 <!--================End Illustrations Area =================-->
 
 <!--================Courses Area =================-->
-        <section class="courses_area p_40">
+        <section class="courses_area p_40 mb-5">
             <div class="container">
                 <div class="main_title">
                     <h2 data-aos="fade-up" data-aos-duration="1600">Divisi</h2>
-                    <p data-aos="fade-up" data-aos-duration="1800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet veritatis facere assumenda, nisi distinctio accusamus vero ducimus aliquam nam velit ad voluptate. Et optio atque omnis molestias, deleniti odit error?</p>
+                    <p data-aos="fade-up" data-aos-duration="1800">Roda memiliki 3 divisi yaitu Robotics,Programming, dan Web Developer yang mana ketiganya akan dipelajari disini. kalian dapat memilih ketiga divisi tersebut untuk lebih mendalaminya.</p>
                 </div>
                 <div class="row courses_inner">
                     <div class="col-lg-4">
                         <div class="courses_item" data-aos="fade-right" data-aos-duration="1800">
                             <img src="assets/img/courses/webdev.jpg" alt="" style="width: 100%;">
-                            <div class="hover_text">
-                                <a class="cat" href="#">Lihat</a>
+                            <div class="hover_text">                                
                                 <a href="javaScript:void(0);">
                                     <h4>Web Developer</h4>
                                 </a>
@@ -114,8 +113,7 @@
                     <div class="col-lg-4">
                         <div class="courses_item" data-aos="fade-up" data-aos-duration="1800">
                             <img src="assets/img/courses/robotic.jpg" alt="" style="width: 100%;">
-                            <div class="hover_text">
-                                <a class="cat" href="#">Lihat</a>
+                            <div class="hover_text">                                
                                 <a href="javaScript:void(0);">
                                     <h4>Robotic</h4>
                                 </a>
@@ -129,8 +127,7 @@
                     <div class="col-lg-4">
                         <div class="courses_item" data-aos="fade-left" data-aos-duration="1800">
                             <img src="assets/img/courses/programming.jpg" alt="" style="width: 100%;">
-                            <div class="hover_text">
-                                <a class="cat" href="#">Lihat</a>
+                            <div class="hover_text">                            
                                 <a href="javaScript:void(0);">
                                     <h4>Programming</h4>
                                 </a>
@@ -146,45 +143,6 @@
         </section>
 <!--================End Courses Area =================-->
 
-<!--================Team Area =================-->
-<section class="team_area p_20">
-    <div class="container">
-        <div class="main_title">
-            <h2 data-aos="fade-up" data-aos-duration="1800">Anggota</h2>
-        </div>
-        <section class="testimonials_area p_20">
-            <div class="container">
-                <div class="testi_slider owl-carousel">
-                    <div class="item">
-                        <div class="testi_item">
-                            <img src="assets/img/testimonials/profile.png" alt="">
-                            <h4>Thoriq</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem, accusantium adipisci assumenda dolorum officia nemo, nam maxime dicta fuga, exercitationem ducimus facere magni aspernatur quos veritatis rem dolor et?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testi_item">
-                            <img src="assets/img/testimonials/profile.png" alt="">
-                            <h4>Raditya</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis cupiditate asperiores iure hic, similique optio reprehenderit temporibus quo nobis corrupti sunt tempora libero dolores exercitationem eveniet dolorum, odit repudiandae animi!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testi_item">
-                            <img src="assets/img/testimonials/profile.png" alt="">
-                            <h4>Adam</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odio laborum illo velit explicabo quidem delectus officia deserunt nisi optio dolores temporibus minus reprehenderit, dignissimos porro provident maxime deleniti! Quisquam.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-</section>
-<!--================End Team Area =================-->
 
 
 
