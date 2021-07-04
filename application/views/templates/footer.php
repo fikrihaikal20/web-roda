@@ -36,7 +36,7 @@
                 <div class="single-footer-widget tp_widgets">
                     <h6 class="footer_title">Tentang Developer</h6>
                     <ul class="list">
-                        <li>Web developer adalah divisi yang bergerak di pengembangan web.Tugas dari web developer adalah membuat Web untuk kegiatan oraganisasi/ekskul lain disekolah serta mengembangkan Web Roda.</li>
+                        <li>Web Developer adalah divisi yang bergerak di pengembangan website. Tugas dari Web Developer adalah membuat website untuk kegiatan oraganisasi/ekskul lain di sekolah, serta untuk mengembangkan website RODA.</li>
                     </ul>
                 </div>
             </div>

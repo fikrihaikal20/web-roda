@@ -13,8 +13,8 @@
         </div>
         <div class="container">
             <div class="banner_content text-center">
-                <h3 data-aos="fade-up" data-aos-duration="1600">Welcome To <br /> Robotika Smanisda</h3>
-                <p data-aos="fade-up" data-aos-duration="1900">Bergabunglah dengan kami untuk membuat sebuah inovasi di dunia modern.Disini kita akan mempelajari 3 keahlian yaitu Robotics,Programming,dan Web developer.Ketiga skill tersebut sangat dibutuhkan di era digital saat ini, maka dari itu jangan sampai melewatkan kesempatan yang ada. </p>
+                <h3 data-aos="fade-up" data-aos-duration="1600">Welcome To <br/> Robotika Smanisda</h3>
+                <p data-aos="fade-up" data-aos-duration="1900">Bergabunglah dengan kami untuk membuat sebuah inovasi di dunia modern!<br/>Di sini kita akan mempelajari tiga keahlian, yaitu Robotics, Programming, dan Web Developer.<br/>Ketiga skill tersebut sangat dibutuhkan di era digital saat ini, maka dari itu jangan sampai melewatkan kesempatan yang ada!</p>
                 <a data-aos="fade-up" data-aos-duration="2000" class="main_btn" href="<?= base_url('auth/daftar') ?>">Bergabung Sekarang <span class="lnr lnr-arrow-right"></span></a>
             </div>
         </div>
@@ -79,7 +79,7 @@
             <div class="col-md-7 mx-auto">
                 <div class="main_title">
                     <h2 data-aos="fade-up" data-aos-duration="2000">Robotika Smanisda</h2>
-                    <p data-aos="fade-up" data-aos-duration="2200">Robotika Smanisda atau yang biasa dikenal sebagai RODA adalah salah satu ekstrakurikuler di SMA Negeri 1 Sidoarjo yang bergerak dibidang teknologi dan informatika.Selain bidang robotika, RODA juga berupaya menekuni bidang pemrograman sehingga para anggota dapat mengembangkan program seperti startup, website, dan aplikasi sederhana yang dapat berguna bagi lingkungan masyarakat.</p>
+                    <p data-aos="fade-up" data-aos-duration="2200">Robotika Smanisda atau yang biasa dikenal sebagai RODA adalah salah satu ekstrakurikuler di SMA Negeri 1 Sidoarjo yang bergerak di bidang teknologi dan informatika. Selain bidang robotika, RODA juga berupaya menekuni bidang pemrograman sehingga para anggota dapat mengembangkan program seperti startup, website, dan aplikasi sederhana yang dapat berguna bagi lingkungan masyarakat.</p>
                     <a href="<?= base_url('Home/tentang') ?>"><button data-aos="fade-up" data-aos-duration="2400" class="bubbly-button">Lihat selengkapnya <span class="lnr lnr-arrow-right"></span></button></a>
                 </div>
             </div>
@@ -93,7 +93,7 @@
             <div class="container">
                 <div class="main_title">
                     <h2 data-aos="fade-up" data-aos-duration="1600">Divisi</h2>
-                    <p data-aos="fade-up" data-aos-duration="1800">Roda memiliki 3 divisi yaitu Robotics,Programming, dan Web Developer yang mana ketiganya akan dipelajari disini. kalian dapat memilih ketiga divisi tersebut untuk lebih mendalaminya.</p>
+                    <p data-aos="fade-up" data-aos-duration="1800">Roda memiliki tiga divisi yaitu Robotics, Programming, dan Web Developer yang mana ketiganya akan dipelajari bersama. Kalian dapat memilih dari tiga divisi tersebut untuk lebih mendalaminya.</p>
                 </div>
                 <div class="row courses_inner">
                     <div class="col-lg-4">
