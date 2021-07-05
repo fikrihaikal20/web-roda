@@ -42,7 +42,6 @@ class Admin extends CI_Controller {
 	
 		$this->form_validation->set_rules('nama', 'Nama', 'required|trim');
 		$this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
-		$this->form_validation->set_rules('devisi', 'Devisi', 'required|trim');
 		$this->form_validation->set_rules('kelas', 'Kelas', 'required|trim');
 	
 		if ($this->form_validation->run() == FALSE) {
@@ -53,7 +52,6 @@ class Admin extends CI_Controller {
 		  $data = [
 			'nama' => $this->input->post('nama'),
 			'email' => $this->input->post('email'),
-			'devisi' => $this->input->post('devisi'),
 			'kelas' => $this->input->post('kelas')
 		  ];
 		  $this->anggota->insert_data($data);

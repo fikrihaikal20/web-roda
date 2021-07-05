@@ -17,14 +17,7 @@
             <input type="text" class="form-control" id="email" name="email" value="<?php echo set_value('email') ?>">
             <?php echo form_error('email', '<span class="text-danger">', '</span>'); ?>
           </div>
-        </div>
-        <div class="form-group row">
-          <label for="devisi" class="col-sm-2 col-form-label">Devisi</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="devisi" name="devisi" value="<?php echo set_value('devisi') ?>">
-            <?php echo form_error('devisi', '<span class="text-danger">', '</span>'); ?>
-          </div>
-        </div>
+        </div>        
         <div class="form-group row">
           <label for="kelas" class="col-sm-2 col-form-label">Kelas</label>
           <div class="col-sm-10">
