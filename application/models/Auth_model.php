@@ -22,12 +22,12 @@ class Auth_model extends CI_Model{
                 $this->session->set_userdata($data);
                 return redirect('user');
             } else {
-                echo "PASSWORD GAK COCOK!";
-                return;
+                return $this->session->set_flashdata('gagal-reg', 'gagal!');
+                
             }
         } else {
-            echo "DATA GAADA";
-            return;
+            return $this->session->set_flashdata('gagal-reg', 'gagal!');
+            
         }
     }
 

@@ -23,6 +23,7 @@ class Auth extends CI_Controller {
 
         ];
         $this->auth->login($data);
+        redirect(base_url());
         }
     }
 

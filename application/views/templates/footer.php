@@ -154,6 +154,18 @@
     AOS.init();
 </script>
 
+    <?php if ($this->session->flashdata('gagal-reg')) : ?>
+        <script>
+            Swal.fire({
+                icon: 'error',
+                title: 'Password atau Email salah',
+                text: 'Masukkan password atau email yang benar',
+                showConfirmButton: false,
+                timer: 2500
+            })
+        </script>
+    <?php endif; ?>
+
 </body>
 
 </html>
